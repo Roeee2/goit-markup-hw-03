@@ -1,0 +1,149 @@
+:root {
+  --background-color: #e5e5e5;
+  --header-color: #212121;
+  --text-color: #757575;
+  --h1-background: #2f303a;
+  --web-studio-blue: #2196f3;
+  --black: #000000;
+  --white: #ffffff;
+  --white6alpha: #ffffff99;
+  --button-grey: #f5f4fa;
+}
+body {
+  font-family: "Roboto", "Arial", "sans-serif";
+  color: #212121;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.header-background {
+  background: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: var(--web-studio-blue);
+}
+.logo {
+  color: var(--web-studio-blue);
+}
+.logo-studio {
+  color: var(--black);
+}
+.solutions {
+  color: var(--white);
+  background-color: var(--h1-background);
+  width: 1600px;
+  height: 600px;
+  position: relative;
+}
+
+.solutions .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.solutions-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+}
+.solutions-example-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+}
+.solutions-example {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--text-color);
+}
+.whatwedo-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+}
+.team-member-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+}
+.team-member-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--white);
+}
+.footer-background {
+  background-color: var(--h1-background);
+}
+.logo-studio-light {
+  color: var(--white);
+}
+.address-6alpha {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--white6alpha);
+}
+.portfolio-item-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+}
+.portfolio-types {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--header-color);
+  background: var(--button-grey);
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 22px;
+}
+
+.portfolio-types:hover,
+.portfolio-types:focus {
+  background-color: var(--web-studio-blue);
+}
+
+.portfolio-types:hover,
+.portfolio-types:focus,
+.portfolio-types:hover a,
+.portfolio-types:focus a {
+  color: var(--white);
+}
+.order-service {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--white);
+  cursor: pointer;
+  background: var(--web-studio-blue);
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 41px 10px 42px;
+}
+.order-service:hover a,
+.order-service:focus a {
+  color: var(--white6alpha);
+}
