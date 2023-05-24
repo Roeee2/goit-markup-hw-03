@@ -158,6 +158,10 @@ a:focus {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.start-gap {
+  padding-top: 94px;
+  background: var(--white);
+}
 .end-gap {
   padding-bottom: 94px;
   background: var(--white);
@@ -217,7 +221,15 @@ a:focus {
   display: inline-block;
   padding: 6px 22px;
 }
-
+.portfolio-types-box {
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 34px 0;
+  background: var(--white);
+  justify-content: center;
+}
 .portfolio-types:hover,
 .portfolio-types:focus {
   background-color: var(--web-studio-blue);
@@ -229,6 +241,35 @@ a:focus {
 .portfolio-types:focus a {
   color: var(--white);
 }
+.gallery-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: var(--white);
+}
+
+.portfolio-gallery {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1170px;
+}
+
+.portfolio-gallery li {
+  width: calc(33.33% - 30px);
+  margin-bottom: 30px;
+}
+
+.portfolio-gallery figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .order-service {
   font-weight: 500;
   font-size: 16px;
