@@ -18,7 +18,11 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
-.container {
+.footer-container {
+  width: 1600px;
+  margin-inline: auto;
+}
+.header-container {
   width: 1600px;
   margin-inline: auto;
 }
@@ -129,7 +133,7 @@ a:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
-  padding: 50px;
+  padding: 0px 0 0px 0;
 }
 
 .whatwedo {
@@ -164,6 +168,7 @@ a:focus {
   text-align: center;
   background: var(--button-grey);
   padding: 0;
+  margin: 0;
 }
 .team-container {
   display: flex;
@@ -173,7 +178,7 @@ a:focus {
   text-align: center;
   gap: 30px;
   background: var(--button-grey);
-  padding: 0 0 94px 0;
+  padding: 44px 0 50px 0;
 }
 .team-container figure {
   margin-right: 0px;
